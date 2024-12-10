@@ -1,0 +1,61 @@
+# API Security Protocols
+config/.env
+*.env
+.env*
+
+# Audio Specimens
+audio/raw/*
+audio/enhanced/*
+*.mp3
+*.wav
+*.m4a
+
+# Visual Evidence
+video/generated/*
+video/final/*
+*.mp4
+*.mov
+*.avi
+
+# Captioning Artifacts
+captions/*
+*.srt
+*.vtt
+
+# Python's Infectious Agents
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE Contamination
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Keep Directory Structure
+!audio/raw/.gitkeep
+!audio/enhanced/.gitkeep
+!video/generated/.gitkeep
+!video/final/.gitkeep
+!captions/.gitkeep
